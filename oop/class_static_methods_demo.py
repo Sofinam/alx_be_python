@@ -8,7 +8,7 @@ class Calculator:
 
         return a + b
     @classmethod
-    def multiply(clls, a, b):
+    def multiply(cls, a, b):
         """Class method to return the product of two numbers.
         Prints the class attribute calculation_type before performing multiplication"""
         print(f"Calculation type: {cls.calculation_type}")
